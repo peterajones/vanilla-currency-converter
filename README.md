@@ -17,6 +17,6 @@ icons in the [lipis repo](https://github.com/lipis/flag-icon-css).
 
 You will also need an API KEY from [Exchangeratesapi](https://exchangeratesapi.io/). At the time the videos were recorded, the API KEY was not required but it is required now - **it's free!**
 
-Take a look at the `temp.config.js` file - in there you will find instructions on how to get this Vanilla Currency Converter working.
+Take a look at the `js/temp.config.js` file - in there you will find instructions on how to get this Vanilla Currency Converter working.
 
 I also added a couple of my own niceties. Can you find them?

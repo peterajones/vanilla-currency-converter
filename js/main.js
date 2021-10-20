@@ -16,199 +16,199 @@ let currencies = [
     name: "US Dollar",
     abbreviation: "USD",
     symbol: "\u0024",
-    flagURL: "./flags/us.svg"
+    flagURL: "./img/flags/us.svg"
   },
   {
     name: "Euro",
     abbreviation: "EUR",
     symbol: "\u20AC",
-    flagURL: "./flags/eu.svg"
+    flagURL: "./img/flags/eu.svg"
   },
   {
     name: "Japanese Yen",
     abbreviation: "JPY",
     symbol: "\u00A5",
-    flagURL: "./flags/jp.svg"
+    flagURL: "./img/flags/jp.svg"
   },
   {
     name: "British Pound",
     abbreviation: "GBP",
     symbol: "\u00A3",
-    flagURL: "./flags/gb.svg"
+    flagURL: "./img/flags/gb.svg"
   },
   {
     name: "Australian Dollar",
     abbreviation: "AUD",
     symbol: "\u0024",
-    flagURL: "./flags/au.svg"
+    flagURL: "./img/flags/au.svg"
   },
   {
     name: "Canadian Dollar",
     abbreviation: "CAD",
     symbol: "\u0024",
-    flagURL: "./flags/ca.svg"
+    flagURL: "./img/flags/ca.svg"
   },
   {
     name: "Swiss Franc",
     abbreviation: "CHF",
     symbol: "\u0043\u0048\u0046",
-    flagURL: "./flags/ch.svg"
+    flagURL: "./img/flags/ch.svg"
   },
   {
     name: "Chinese Yuan Renminbi",
     abbreviation: "CNY",
     symbol: "\u00A5",
-    flagURL: "./flags/cn.svg"
+    flagURL: "./img/flags/cn.svg"
   },
   {
     name: "Swedish Krona",
     abbreviation: "SEK",
     symbol: "\u006B\u0072",
-    flagURL: "./flags/se.svg"
+    flagURL: "./img/flags/se.svg"
   },
   {
     name: "New Zealand Dollar",
     abbreviation: "NZD",
     symbol: "\u0024",
-    flagURL: "./flags/nz.svg"
+    flagURL: "./img/flags/nz.svg"
   },
   {
     name: "Mexican Peso",
     abbreviation: "MXN",
     symbol: "\u0024",
-    flagURL: "./flags/mx.svg"
+    flagURL: "./img/flags/mx.svg"
   },
   {
     name: "Singapore Dollar",
     abbreviation: "SGD",
     symbol: "\u0024",
-    flagURL: "./flags/sg.svg"
+    flagURL: "./img/flags/sg.svg"
   },
   {
     name: "Hong Kong Dollar",
     abbreviation: "HKD",
     symbol: "\u0024",
-    flagURL: "./flags/hk.svg"
+    flagURL: "./img/flags/hk.svg"
   },
   {
     name: "Norwegian Krone",
     abbreviation: "NOK",
     symbol: "\u006B\u0072",
-    flagURL: "./flags/no.svg"
+    flagURL: "./img/flags/no.svg"
   },
   {
     name: "South Korean Won",
     abbreviation: "KRW",
     symbol: "\u20A9",
-    flagURL: "./flags/kr.svg"
+    flagURL: "./img/flags/kr.svg"
   },
   {
     name: "Turkish Lira",
     abbreviation: "TRY",
     symbol: "\u20BA",
-    flagURL: "./flags/tr.svg"
+    flagURL: "./img/flags/tr.svg"
   },
   {
     name: "Russian Ruble",
     abbreviation: "RUB",
     symbol: "\u20BD",
-    flagURL: "./flags/ru.svg"
+    flagURL: "./img/flags/ru.svg"
   },
   {
     name: "Indian Rupee",
     abbreviation: "INR",
     symbol: "\u20B9",
-    flagURL: "./flags/in.svg"
+    flagURL: "./img/flags/in.svg"
   },
   {
     name: "Brazilian Real",
     abbreviation: "BRL",
     symbol: "\u0052\u0024",
-    flagURL: "./flags/br.svg"
+    flagURL: "./img/flags/br.svg"
   },
   {
     name: "South African Rand",
     abbreviation: "ZAR",
     symbol: "\u0052",
-    flagURL: "./flags/za.svg"
+    flagURL: "./img/flags/za.svg"
   },
   {
     name: "Philippine Peso",
     abbreviation: "PHP",
     symbol: "\u20B1",
-    flagURL: "./flags/ph.svg"
+    flagURL: "./img/flags/ph.svg"
   },
   {
     name: "Czech Koruna",
     abbreviation: "CZK",
     symbol: "\u004B\u010D",
-    flagURL: "./flags/cz.svg"
+    flagURL: "./img/flags/cz.svg"
   },
   {
     name: "Indonesian Rupiah",
     abbreviation: "IDR",
     symbol: "\u0052\u0070",
-    flagURL: "./flags/id.svg"
+    flagURL: "./img/flags/id.svg"
   },
   {
     name: "Malaysian Ringgit",
     abbreviation: "MYR",
     symbol: "\u0052\u004D",
-    flagURL: "./flags/my.svg"
+    flagURL: "./img/flags/my.svg"
   },
   {
     name: "Hungarian Forint",
     abbreviation: "HUF",
     symbol: "\u0046\u0074",
-    flagURL: "./flags/hu.svg"
+    flagURL: "./img/flags/hu.svg"
   },
   {
     name: "Icelandic Krona",
     abbreviation: "ISK",
     symbol: "\u006B\u0072",
-    flagURL: "./flags/is.svg"
+    flagURL: "./img/flags/is.svg"
   },
   {
     name: "Croatian Kuna",
     abbreviation: "HRK",
     symbol: "\u006B\u006E",
-    flagURL: "./flags/hr.svg"
+    flagURL: "./img/flags/hr.svg"
   },
   {
     name: "Bulgarian Lev",
     abbreviation: "BGN",
     symbol: "\u043B\u0432",
-    flagURL: "./flags/bg.svg"
+    flagURL: "./img/flags/bg.svg"
   },
   {
     name: "Romanian Leu",
     abbreviation: "RON",
     symbol: "\u006C\u0065\u0069",
-    flagURL: "./flags/ro.svg"
+    flagURL: "./img/flags/ro.svg"
   },
   {
     name: "Danish Krone",
     abbreviation: "DKK",
     symbol: "\u006B\u0072",
-    flagURL: "./flags/dk.svg"
+    flagURL: "./img/flags/dk.svg"
   },
   {
     name: "Thai Baht",
     abbreviation: "THB",
     symbol: "\u0E3F",
-    flagURL: "./flags/th.svg"
+    flagURL: "./img/flags/th.svg"
   },
   {
     name: "Polish Zloty",
     abbreviation: "PLN",
     symbol: "\u007A\u0142",
-    flagURL: "./flags/pl.svg"
+    flagURL: "./img/flags/pl.svg"
   },
   {
     name: "Israeli Shekel",
     abbreviation: "ILS",
     symbol: "\u20AA",
-    flagURL: "./flags/il.svg"
+    flagURL: "./img/flags/il.svg"
   }
 ];
 
