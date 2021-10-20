@@ -1,5 +1,6 @@
-const API_KEY = '3e76a380702ef8c77124cf79be68c5a3';
-const BASE_URL = `http://api.exchangeratesapi.io/v1/latest?access_key=${API_KEY}`;
+const API_KEY = config.API_KEY;
+const BASE_URL = config.BASE_URL;
+const DATA_URL = `${BASE_URL}${API_KEY}`;
 
 const addCurrencyBtn = document.querySelector('.add-currency-btn');
 const addCurrencyList = document.querySelector('.add-currency-list');
@@ -339,15 +340,13 @@ function newCurrenciesListItem(currency) {
   );
 }
 
-fetch(BASE_URL)
+fetch(DATA_URL)
   .then(res => res.json())
   .then(data => {
-    // let msg = data.error.message;
     document.querySelector('.date').textContent = data.date;
     data.rates['EUR'] = 1;
     currencies = currencies.filter(currency => data.rates[currency.abbreviation]);
     currencies.forEach(currency => currency.rate = data.rates[currency.abbreviation]);
-    // console.log(currencies);
     populateAddCurrencyList();
     populateCurrenciesList();
   })
